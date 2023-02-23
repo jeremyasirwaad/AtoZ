@@ -41,9 +41,28 @@ function App() {
 		}
 	];
 
+	const comparefucntion = (a, b) => {
+		if (a.cutoff === b.cutoff) {
+			if (a.math === b.math) {
+				if (a.phy === b.phy) {
+					if (a.other === b.other) {
+					} else {
+						return b.other - a.other;
+					}
+				} else {
+					return b.phy - a.phy;
+				}
+			} else {
+				return b.math - a.math;
+			}
+		} else {
+			return b.cutoff - a.cutoff;
+		}
+	};
+
 	const allotrank = () => {
 		var sorttedlist = list.sort((a, b) => {
-			return b.cutoff - a.cutoff;
+			return comparefucntion(a, b);
 		});
 
 		sorttedlist.forEach((e, index) => {
@@ -254,10 +273,30 @@ function App() {
 			</button>
 
 			<div>
-				{checker === 0 && <Table dataSource={list} columns={columns1} />}
-				{checker === 1 && <Table dataSource={rankalloted} columns={columns2} />}
-				{checker === 2 && <Table dataSource={rankalloted} columns={columns2} />}
-				{checker === 3 && <Table dataSource={rankalloted} columns={columns2} />}
+				{checker === 0 && (
+					<Table dataSource={list} columns={columns1} pagination={false} />
+				)}
+				{checker === 1 && (
+					<Table
+						dataSource={rankalloted}
+						columns={columns2}
+						pagination={false}
+					/>
+				)}
+				{checker === 2 && (
+					<Table
+						dataSource={rankalloted}
+						columns={columns2}
+						pagination={false}
+					/>
+				)}
+				{checker === 3 && (
+					<Table
+						dataSource={rankalloted}
+						columns={columns2}
+						pagination={false}
+					/>
+				)}
 			</div>
 		</div>
 	);

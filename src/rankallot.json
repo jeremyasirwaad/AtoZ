@@ -1,102 +1,141 @@
-[
-    {
-      "_id": "63f533f3a2be79533ffe53c3",
-      "name": "Elnora Mccarty",
-      "cutoff": 65.1
-    },
-    {
-      "_id": "63f533f316f71b664064cdbe",
-      "name": "Snyder James",
-      "cutoff": 91
-    },
-    {
-      "_id": "63f533f343751b4fb6bb087e",
-      "name": "Ford Copeland",
-      "cutoff": 80.2
-    },
-    {
-      "_id": "63f533f3299102f2311e02ef",
-      "name": "Haney Mays",
-      "cutoff": 56.9
-    },
-    {
-      "_id": "63f533f364a06f7d157fd596",
-      "name": "Corine Brennan",
-      "cutoff": 26.7
-    },
-    {
-      "_id": "63f533f346074cd5ebc30983",
-      "name": "Fran Carver",
-      "cutoff": 72
-    },
-    {
-      "_id": "63f533f3abba2d6ba8385815",
-      "name": "Gutierrez Holloway",
-      "cutoff": 5.9
-    },
-    {
-      "_id": "63f533f3407ed6f131c6f14e",
-      "name": "Eileen Morgan",
-      "cutoff": 40.9
-    },
-    {
-      "_id": "63f533f3bbc481ee7d91653e",
-      "name": "Estrada Knowles",
-      "cutoff": 32.1
-    },
-    {
-      "_id": "63f533f342a0c28bed2146f5",
-      "name": "Chang Mccray",
-      "cutoff": 77.2
-    },
-    {
-      "_id": "63f533f3099c8ab86edecfec",
-      "name": "Jodi Meadows",
-      "cutoff": 91.7
-    },
-    {
-      "_id": "63f533f3ef59516bb489ebc6",
-      "name": "Ivy Palmer",
-      "cutoff": 71.4
-    },
-    {
-      "_id": "63f533f3dc0e99c0100de67f",
-      "name": "David Villarreal",
-      "cutoff": 13
-    },
-    {
-      "_id": "63f533f352755c2d812b6276",
-      "name": "Leann Rivera",
-      "cutoff": 87.3
-    },
-    {
-      "_id": "63f533f38fc93baa3b895907",
-      "name": "Andrea Solomon",
-      "cutoff": 34.4
-    },
-    {
-      "_id": "63f533f39d9fb7300c638bf7",
-      "name": "Washington Valencia",
-      "cutoff": 54.8
-    },
-    {
-      "_id": "63f533f356a421cdd9d74f51",
-      "name": "Snider Thornton",
-      "cutoff": 66.3
-    },
-    {
-      "_id": "63f533f32a71d2983428f040",
-      "name": "Mclaughlin Mcmahon",
-      "cutoff": 8.4
-    },
-    {
-      "_id": "63f533f3da75f1c9dda410df",
-      "name": "Cunningham Lindsey",
-      "cutoff": 98
-    },
-    {
-      "_id": "63f533f322e2464f523f711b",
-      "name": "Lynette Bond",
-      "cutoff": 12.4
-    }
-  ]
+[{
+  "id": 1,
+  "name": "Cart",
+  "cutoff": 96.0,
+  "math": 7,
+  "phy": 10,
+  "other": 8
+}, {
+  "id": 2,
+  "name": "Burnaby",
+  "cutoff": 96.0,
+  "math":7,
+  "phy": 10,
+  "other": 2
+}, {
+  "id": 3,
+  "name": "Sybille",
+  "cutoff": 46.4,
+  "math": 8,
+  "phy": 5,
+  "other": 5
+}, {
+  "id": 4,
+  "name": "Kenna",
+  "cutoff": 98.3,
+  "math": 6,
+  "phy": 2,
+  "other": 7
+}, {
+  "id": 5,
+  "name": "Morgana",
+  "cutoff": 24.7,
+  "math": 2,
+  "phy": 4,
+  "other": 2
+}, {
+  "id": 6,
+  "name": "Yasmin",
+  "cutoff": 26.5,
+  "math": 9,
+  "phy": 3,
+  "other": 8
+}, {
+  "id": 7,
+  "name": "Zacharias",
+  "cutoff": 89.6,
+  "math": 5,
+  "phy": 10,
+  "other": 3
+}, {
+  "id": 8,
+  "name": "Magdalene",
+  "cutoff": 92.4,
+  "math": 6,
+  "phy": 10,
+  "other": 5
+}, {
+  "id": 9,
+  "name": "Lexine",
+  "cutoff": 75.6,
+  "math": 1,
+  "phy": 1,
+  "other": 8
+}, {
+  "id": 10,
+  "name": "Jobina",
+  "cutoff": 95.0,
+  "math": 8,
+  "phy": 3,
+  "other": 2
+}, {
+  "id": 11,
+  "name": "Cathe",
+  "cutoff": 21.7,
+  "math": 8,
+  "phy": 3,
+  "other": 9
+}, {
+  "id": 12,
+  "name": "Abbie",
+  "cutoff": 50.4,
+  "math": 8,
+  "phy": 10,
+  "other": 7
+}, {
+  "id": 13,
+  "name": "Rivi",
+  "cutoff": 85.2,
+  "math": 4,
+  "phy": 9,
+  "other": 9
+}, {
+  "id": 14,
+  "name": "Antonie",
+  "cutoff": 27.9,
+  "math": 3,
+  "phy": 10,
+  "other": 10
+}, {
+  "id": 15,
+  "name": "Moishe",
+  "cutoff": 38.0,
+  "math": 7,
+  "phy": 7,
+  "other": 9
+}, {
+  "id": 16,
+  "name": "Kellen",
+  "cutoff": 48.1,
+  "math": 9,
+  "phy": 6,
+  "other": 8
+}, {
+  "id": 17,
+  "name": "Delaney",
+  "cutoff": 78.7,
+  "math": 2,
+  "phy": 10,
+  "other": 5
+}, {
+  "id": 18,
+  "name": "Idelle",
+  "cutoff": 61.7,
+  "math": 2,
+  "phy": 2,
+  "other": 7
+}, {
+  "id": 19,
+  "name": "Christen",
+  "cutoff": 89.8,
+  "math": 2,
+  "phy": 1,
+  "other": 7
+}, {
+  "id": 20,
+  "name": "Antonie",
+  "cutoff": 90.2,
+  "math": 10,
+  "phy": 10,
+  "other": 1
+}]
