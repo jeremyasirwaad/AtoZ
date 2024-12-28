@@ -1,27 +1,28 @@
-[
-    {
-      "_id": "63f5018a72a7d73ffdabe4fb",
-      "name": "Michelle Maynard",
-      "cutoff": 30.5
-    },
-    {
-        "_id": "63f5018ac8f021a2e4e01316",
-        "name": "Carolyn Spence3",
-        "cutoff": 92.5
-      },
-    {
-      "_id": "63f5018ac8f021a2e4e01316",
-      "name": "Carolyn Spence",
-      "cutoff": 91.5
-    },
-    {
-        "_id": "63f5018ac8f021a2e4e01316",
-        "name": "Carolyn Spence2",
-        "cutoff": 91.2
-      },
-    {
-      "_id": "63f5018a7cb89cb9eae8810d",
-      "name": "Merle Peterson",
-      "cutoff": 80.5
-    }
-  ]
+[{
+  "id": 1,
+  "name": "Gowri",
+  "cutoff": 96.5,
+  "math": 8,
+  "phy": 10,
+  "other": 8
+} ,
+{
+  "id": 1,
+  "name": "Gowri2",
+  "cutoff": 97.5,
+  "math": 8,
+  "phy": 10,
+  "other": 8
+} ,
+{
+  "id": 1,
+  "name": "Gowri3",
+  "cutoff": 89.7,
+  "math": 8,
+  "phy": 10,
+  "other": 8
+}
+
+
+
+]
